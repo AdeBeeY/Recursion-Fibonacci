@@ -15,6 +15,8 @@ console.log(fibs(8))
 console.log(fibs(20))
 
   // Solve Recursively
+console.log("This was printed recursively");
+
 function fibsRec(n) {
   if (n == 0 ) {
     return [];
