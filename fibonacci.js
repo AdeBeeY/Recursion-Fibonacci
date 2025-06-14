@@ -1,3 +1,5 @@
+import { mergeSort } from "./mergeSort.js";
+
 function fibs(n) {
   if(n == 0 ) {
     return [];
